@@ -1,5 +1,25 @@
 
 import { library } from '@fortawesome/fontawesome-svg-core';
+export const navLinks = [
+    {
+      id: 'about',
+      title: 'About',
+    },
+    {
+      id: 'projects',
+      title: 'Projects',
+    },
+    {
+      id: 'skills',
+      title: 'Skills',
+    },
+    {
+      id: 'contact',
+      title: 'Contact',
+    },
+  ];
+  /*
+  
 import {
   faX,
   faBars,
@@ -81,24 +101,7 @@ const introduction = {
   ],
 };
 
-export const navLinks = [
-  {
-    id: 'about',
-    title: 'About',
-  },
-  {
-    id: 'projects',
-    title: 'Projects',
-  },
-  {
-    id: 'skills',
-    title: 'Skills',
-  },
-  {
-    id: 'contact',
-    title: 'Contact',
-  },
-];
+
 
 const projects = [
   {
@@ -299,3 +302,4 @@ export {
   markerSvg,
   icons,
 };
+*/
