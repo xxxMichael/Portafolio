@@ -156,7 +156,7 @@ const ProjectCard = ({
 
 const Works = () => {
     return (
-        <div className="mt-5 flex flex-wrap justify-center gap-4 text-grayscale-50 w-full">
+        <div className="mt-5 flex flex-wrap justify-center gap-4 text-primary-700 w-full">
             {projects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
             ))}
