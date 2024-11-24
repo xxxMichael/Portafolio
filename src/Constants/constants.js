@@ -35,7 +35,8 @@ import {
   iBlog,
   avatar,
   Candidata,NFC,
-  ventas 
+  ventas,
+  edu
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -132,10 +133,10 @@ const projects = [
     demo_link: '',
   },
   {
-    name: 'e',
-    description: '',
-    image: "",
-    source_code_link: '',
+    name: 'Educational platform',
+    description: 'This educational platform allows user registration and student enrollment. It features a login system with Gmail authentication and password recovery. Professors can create courses and assignments, assign and grade tasks, and comment on submissions. Students can upload tasks with or without files and receive notifications when tasks are graded. Built with HTML, CSS, and JavaScript.',
+    image: edu,
+    source_code_link: 'https://github.com/xxxMichael/Plataforma-Educativa',
     demo_link: '',
   },
 
