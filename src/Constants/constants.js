@@ -23,7 +23,7 @@ import {
   javaIcon,
   gitIcon,
   githubIcon,
-  psqlIcon,
+  MysqlIcon,
   eslintIcon,
   pyIcon,
   viteIcon,
@@ -48,7 +48,7 @@ const media = {
   javaIcon,
   gitIcon,
   githubIcon,
-  psqlIcon,
+  MysqlIcon,
   eslintIcon,
   pyIcon,
   viteIcon,
@@ -171,14 +171,14 @@ const skills = [
     title: 'HTML',
     icon: htmlIcon,
     description:
-      'I have a strong command of HTML for organizing web pages and generating meaningful content that can be accessed by all users.',
+      '"I have strong experience in HTML, enabling me to design responsive, accessible web pages and collaborate effectively with front-end frameworks."',
   },
   {
     id: 'css',
     title: 'CSS',
     icon: cssIcon,
     description:
-    'I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
+    '"I am skilled in CSS, with experience in crafting responsive designs, styling user interfaces, and enhancing web aesthetics through animations and modern techniques."',
   },
   {
     id: 'javascript',
@@ -206,7 +206,7 @@ const skills = [
     title: 'Amazon Web Services',
     icon: awsIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+      '"I have experience with AWS, including EC2, RDS, S3 buckets, and AWS Certificates, enabling me to deploy and manage secure cloud solutions."',
   },
     {
     id: 'git',
@@ -228,14 +228,14 @@ const skills = [
     title: 'Vite',
     icon: viteIcon,
     description:
-      'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
+      'I have gained considerable experience working with Vite , leveraging its capabilities to build React websites.',
   },
   {
     id: 'py',
     title: 'Python',
     icon: pyIcon,
     description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
+      '"I have basic experience with Python, using it to create solutions and integrate functionality into web applications."',
   },
   {
     id: 'node',
@@ -249,9 +249,15 @@ const skills = [
     title: 'PHP',
     icon: PHPIcon,
     description:
-      '',
+      'I have extensive experience with PHP, using it to develop backends for web applications and create dynamic, data-driven websites.',
   },
- 
+  {
+    id: 'mysql',
+    title: 'MYSQL',
+    icon: MysqlIcon,
+    description:
+      'I have extensive experience with MySQL, having used it in the majority of my projects for database management, data retrieval, and optimization.',
+  },
 ];
 
 const markerSvg = `<svg viewBox="-4 0 36 36">
