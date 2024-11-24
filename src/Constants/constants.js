@@ -1,25 +1,5 @@
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-export const navLinks = [
-    {
-      id: 'about',
-      title: 'About',
-    },
-    {
-      id: 'projects',
-      title: 'Projects',
-    },
-    {
-      id: 'skills',
-      title: 'Skills',
-    },
-    {
-      id: 'contact',
-      title: 'Contact',
-    },
-  ];
-  /*
-  
 import {
   faX,
   faBars,
@@ -94,14 +74,31 @@ const introduction = {
   text: [
     "Hey there thanks for being here , hope u like my portfolio :)",
 
-		"My name is Sara, I'm 21 and a junior computer science student based in Guatemala. I have a strong passion for the technologies related to QA and AI.",
-    "Outside of my regular activities, I'm a painting artist, football enthusiast, chess player, and a dog lover.",
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+		"My name is Michael Chavez, I'm 20 and a fourth-semester software engineering student based in Tungurahua, Ecuador. I have a strong passion for web development, data structures, front-end design, and technologies like Three.js.",
+    "Outside of my regular activities, I enjoy reading, combat sports, video games, movies, and indulging in delicious chinese cuisine.",
+    "I'm continuously thrilled to collaborate with my classmates and teams to develop meaningful projects. Your visit to my portfolio is deeply appreciated!",
     "You can download my resume here."
   ],
 };
 
-
+export const navLinks = [
+  {
+    id: 'about',
+    title: 'About',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
+  },
+  {
+    id: 'skills',
+    title: 'Skills',
+  },
+  {
+    id: 'contact',
+    title: 'Contact',
+  },
+];
 
 const projects = [
   {
@@ -302,4 +299,3 @@ export {
   markerSvg,
   icons,
 };
-*/
