@@ -32,9 +32,10 @@ import {
   neoIcon,
   figmaIcon,
   PHPIcon,
-  pawsitivePrototype,
-  memoryGame,
+  iBlog,
   avatar,
+  Candidata,NFC,
+  ventas 
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -103,30 +104,30 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Ay",
-    description: '',
-    image: memoryGame,
-    source_code_link: 'x',
-    demo_link: 'x',
-  },
-  {
-    name: 'b',
-    description: '',
-    image: "",
-    source_code_link: '',
+    name: "iBlog",
+    description: 'iBlog is a web platform that allows users to create, edit, delete, and comment on posts. It includes registration and login options, authentication with Gmail, password recovery, and a responsive design for mobile devices. Developed with React, Vite, and CSS, and deployed on AWS.',
+    image: iBlog,
+    source_code_link: 'https://github.com/xxxMichael/iBlog',
     demo_link: '',
   },
   {
-    name: 'c',
-    description: '',
-    image: "",
-    source_code_link: '',
+    name: 'Candidate website',
+    description: 'A website developed for one of the candidates for the rectorship of the Universidad Técnica de Ambato. On this website, users can learn about the candidates proposals, news, and events during the election period. Additionally, in the suggestions and voting section, users have the option to submit suggestions as well as show their support for a specific candidate through a vote.',
+    image: Candidata,
+    source_code_link: 'https://github.com/IsmaelSailema20/PaginaWebCandidata',
     demo_link: '',
   },
   {
-    name: 'd',
-    description: '',
-    image: "",
+    name: 'Attendance tracking with NFC',
+    description: 'The project involves the development of a web application designed to manage the registration of students check-ins and check-outs using NFC (Near Field Communication) technology. Each student has an NFC tag that stores their personal information, such as their ID or enrollment number.',
+    image: NFC,
+    source_code_link: 'https://github.com/xxxMichael/Nfc-detector',
+    demo_link: '',
+  },
+  {
+    name: 'Sales App Java',
+    description: 'A Java-based sales application featuring product inventory management, billing, supplier purchases, Kardex, user authentication, and role-based access for employees, administrators, and users. Includes user creation, editing, and data management, powered by Java and MySQL.',
+    image: ventas,
     source_code_link: '',
     demo_link: '',
   },
@@ -137,27 +138,7 @@ const projects = [
     source_code_link: '',
     demo_link: '',
   },
-  {
-    name: '',
-    description: '',
-    image: "",
-    source_code_link: '',
-    demo_link: '',
-  },
-  {
-    name: '',
-    description: '',
-    image: "",
-    source_code_link: '',
-    demo_link: '',
-  },
-  {
-    name: '',
-    description: '',
-    image: "",
-    source_code_link: '',
-    demo_link: '',
-  }
+
 
 ];
 

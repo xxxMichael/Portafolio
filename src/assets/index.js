@@ -32,9 +32,10 @@ import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import pawsitivePrototype from './projects/pawsitive.jpeg';
-import memoryGame from './projects/memory.jpg';
-
+import iBlog from './projects/iBlog.jpeg';
+import Candidata from './projects/projectoCandidata.png';
+import NFC from './projects/NFC.png';
+import ventas from './projects/ventas.png';
 // Avatar
 import avatar from './avatar/avatar.png';
 
@@ -58,8 +59,10 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
-  pawsitivePrototype,
-  memoryGame,
   avatar,
   bl33hIcon,
+  iBlog,
+  Candidata,
+  NFC,
+  ventas
 };
