@@ -36,6 +36,8 @@ import iBlog from './projects/iBlog.jpeg';
 import Candidata from './projects/projectoCandidata.png';
 import NFC from './projects/NFC.png';
 import ventas from './projects/ventas.png';
+import edu from './projects/edu.jpg';
+
 // Avatar
 import avatar from './avatar/avatar.png';
 
@@ -64,5 +66,6 @@ export {
   iBlog,
   Candidata,
   NFC,
-  ventas
+  ventas,
+  edu
 };
