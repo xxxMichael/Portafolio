@@ -1,6 +1,6 @@
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
-import HeroText from "../Components/Herotext.jsx";
+import HeroText from "../Components/HeroText";
 import HeroParticles from "../Components/Particles/HeroParticles";
 import HeroScroller from "../Components/elements/HeroScroller";
 
