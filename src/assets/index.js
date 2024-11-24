@@ -21,7 +21,7 @@ import javaIcon from './tech/java.png';
 import gitIcon from './tech/git.png';
 import githubIcon from './tech/github.png';
 import figmaIcon from './tech/figma.png';
-import psqlIcon from './tech/postgresql.png';
+import MysqlIcon from './tech/Mysql.png';
 import eslintIcon from './tech/eslint.png';
 import viteIcon from './tech/vite.svg';
 import pyIcon from './tech/py.png';
@@ -52,7 +52,7 @@ export {
   githubIcon,
   eslintIcon,
   figmaIcon,
-  psqlIcon,
+  MysqlIcon,
   nodeIcon,
   pyIcon,
   viteIcon,
