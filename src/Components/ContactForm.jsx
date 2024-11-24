@@ -10,10 +10,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "whoisbl33h",
-      "template1",
+      "service_uu6w7mn",
+      "template_c7yatdt",
       e.target,
-      "JjC_Nnt4rUsjIsRtz"
+      "Kw4l3uPEaj4xpqQ4-"
     )
       .then(
         (result) => {
@@ -60,7 +60,7 @@ const ContactForm = () => {
           <div className="w-full flex flex-col">
           <label htmlFor="firstname" style={{ fontWeight: 'bold', fontSize: '18px' }}>First Name</label>
             <input
-              className="p-[0.5em] rounded-xl text-grayscale-950 bg-primary-200"
+              className="p-[0.5em] rounded-xl text-primary-700 bg-primary-200"
               placeholder="Enter your First Name"
               id="firstname"
               type="text"
@@ -71,7 +71,7 @@ const ContactForm = () => {
           <div className="w-full flex flex-col">
           <label htmlFor="lastname" style={{ fontWeight: 'bold', fontSize: '18px' }}>Last Name</label>
             <input
-              className="p-[0.5em] rounded-xl text-grayscale-950 bg-primary-200"
+              className="p-[0.5em] rounded-xl text-primary-700 bg-primary-200"
               placeholder="Enter your Last Name"
               id="lastname"
               type="text"
@@ -82,7 +82,7 @@ const ContactForm = () => {
           <div className="w-full flex flex-col">
           <label htmlFor="email" style={{ fontWeight: 'bold', fontSize: '18px' }}>E-mail</label>
             <input
-              className="p-[0.5em] rounded-xl text-grayscale-950 bg-primary-200"
+              className="p-[0.5em] rounded-xl text-primary-700 bg-primary-200"
               placeholder="Enter your E-mail"
               id="email"
               type="email"
@@ -93,7 +93,7 @@ const ContactForm = () => {
           <div className="w-full flex flex-col">
           <label htmlFor="message" style={{ fontWeight: 'bold', fontSize: '18px' }}>Message</label>
             <textarea
-              className="p-[0.5em] rounded-xl text-grayscale-950 bac bg-primary-200"
+              className="p-[0.5em] rounded-xl text-primary-700 bac bg-primary-200"
               placeholder="Enter your message..."
               name="message"
               required
