@@ -102,4 +102,116 @@ export const heroOptions = {
         },
       },
     },
-};
+  
+    particles: {
+      collisions: {
+        enable: true,
+        mode: 'bounce',
+      },
+      color: {
+        value: '#5d6d7e',
+      },
+      move: {
+        angle: {
+          offset: 0,
+          value: 90,
+        },
+        center: {
+          x: 50,
+          y: 50,
+          mode: 'percent',
+          radius: 0,
+        },
+        direction: ['top-left', 'bottom-left', 'bottom-right', 'top-right'],
+        drift: 0,
+        enable: true,
+        random: false,
+        size: false,
+        speed: 0.8,
+        outMode: 'bounce',
+      },
+      number: {
+        limit: 0,
+        value: 30,
+      },
+  
+      opacity: {
+        random: {
+          enable: true,
+          minimumValue: 0.4,
+          maxValue: 0.6,
+        },
+        value: 0.6,
+        animation: {
+          count: 0,
+          enable: true,
+          speed: 0.2,
+          decay: 0,
+          sync: true,
+          destroy: 'none',
+          startValue: 'random',
+        },
+      },
+  
+      shape: {
+        type: 'character',
+        character: [
+          {
+            fill: true,
+            font: 'Font Awesome 6 Brands',
+            style: '',
+            value: ['\uf3c6'],
+            weight: '400',
+          },
+          {
+            fill: true,
+            font: 'Font Awesome 6 Brands',
+            style: '',
+            value: ['\uf17c'],
+            weight: '400',
+          },
+          {
+            fill: true,
+            font: 'Font Awesome 6 Brands',
+            style: '',
+            value: ['\uf791'],
+            weight: '400',
+          },
+        ],
+      },
+  
+      size: {
+        random: {
+          enable: true,
+          minimumValue: 25,
+          maxValue: 35,
+        },
+        animation: {
+          count: 0,
+          enable: true,
+          speed: 0.2,
+          decay: 0,
+          sync: true,
+          destroy: 'none',
+          startValue: 'random',
+        },
+      },
+  
+      lineLinked: {
+        blink: false,
+        color: {
+          value: '#ffffff',
+        },
+        consent: true,
+        distance: 100,
+        enable: true,
+        frequency: 10,
+        opacity: 0.4,
+        width: 1,
+      },
+    },
+    pauseOnBlur: true,
+    pauseOnOutsideViewport: true,
+    smooth: true,
+  };
+  
